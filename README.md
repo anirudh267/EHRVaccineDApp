@@ -1,1 +1,0 @@
-VAXBLOCK Decentralized Blockchain Record Manager
