@@ -1,1 +1,1 @@
-"# VAXBLOCKDApp" 
+VAXBLOCK Decentralized Blockchain Record Manager
