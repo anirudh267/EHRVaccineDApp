@@ -397,20 +397,20 @@ const App = () => {
             ))}
           </ul>
           <div>
-            <h2>Enter Vaccine Name to search for a Vaccination Slot:</h2>
+            <h2>Enter vaccine name to search for available vaccination allocations:</h2>
             <label>Vaccine Name:</label>
             <input
               type="text"
               value={searchedVaccineID}
               onChange={(e) => setSearchedVaccineID(e.target.value)}
             />
-            <button onClick={handleSearchVaccinationSlot}>Search Slot</button>
+            <button onClick={handleSearchVaccinationSlot}>Search Vaccination Allocation</button>
           </div>
           <p>{message}</p>
           {vaccinationSlot && (
             <div>
-              <h2>Vaccination Slot Details:</h2>
-              <p>Total Available Vaccinations: {vaccinationSlot.totalCount}</p>
+              <h2>Vaccination Allocation Details:</h2>
+              <p>Total Available Vaccination Allocations: {vaccinationSlot.totalCount}</p>
             </div>
           )}
           <div>
@@ -493,7 +493,7 @@ const App = () => {
           )}
           <p>{message}</p>
           <div>
-            <h2>Add Vaccination Slot:</h2>
+            <h2>Add Vaccination Allocation:</h2>
             <label>Vaccine Name:</label>
             <input
               type="text"
