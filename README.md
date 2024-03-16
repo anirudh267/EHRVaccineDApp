@@ -16,3 +16,4 @@ Steps:
 5)Connect ganache to metamask using network address and port.
 6)In the terminal cd truffle, enter the code "truffle compile" then enter code "truffle migrate --reset"
 7)Now cd to client enter the code "npm install" then enter code "npm install web3". To start the application "npm start".
+NOTE: The client has to be installed manually by "npx create-react-app client" in the terminal
